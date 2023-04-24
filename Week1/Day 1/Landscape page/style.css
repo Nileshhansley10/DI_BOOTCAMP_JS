@@ -1,0 +1,119 @@
+.navbar {
+    width: 100%;
+    height: 35px;
+    line-height: 90px;
+    /* padding: 0px 0px; */
+    position: sticky;
+    margin-top: -8px;
+    }
+
+.boot{
+    font-size: 30px;
+    float: left;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: -1px;
+    margin-left: -250px;
+    padding-left: 405px;
+}
+
+.container {
+    text-align: end;
+    width: 90%;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    padding: 14px 21px;
+    border-radius: 4px;
+    border-color: rgb(0, 217, 255);
+    background-color: rgb(0, 217, 255);
+}
+
+
+body{
+ margin: -13px;
+}
+
+.container1{
+    width: 100%;
+}
+
+}
+.title{
+    color: rgb(255, 0, 0);
+}
+/* .title h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 10;
+} */
+img{
+    width: 100%;
+    height: 430px;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
+    margin-top: -12px;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    top: 185px;
+    flex-direction: column;
+    left: 340px;
+    margin-top: -30px;
+    height: 280px;
+}
+
+input[type="email"] {
+    height: 40px;
+    width: 460px
+
+}
+input {
+    font-size: 17px;
+}
+
+.form-control{
+    top: 50px;
+}
+
+#floatingInput>form-control{
+    height: 60px;
+}
+.footer {
+    background-color: rgb(255, 255, 255);
+    height: 200%;
+    width: 100%;
+    /* position: absolute; */
+    top: 495px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+i {
+    color: aqua;
+    margin-left: 60px;
+}
+
+p {
+    text-align: center;
+}
+
+.i{
+    color: brown;
+}

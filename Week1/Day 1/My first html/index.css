@@ -1,0 +1,36 @@
+.p,span{
+    background-color: yellow;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+  }
+
+  .diff{
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+  }
+
+  table, th, td{
+    border: 0.5px solid;
+      border-collapse: collapse;    
+      
+  }
+
+  td{
+    height: 50px;
+  }
+
+  table{
+    width: 100%;
+  }

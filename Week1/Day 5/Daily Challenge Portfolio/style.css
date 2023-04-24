@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+
+}
+
+body{
+    background-color: #081b28;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #081b28;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 35px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: aqua;
+}
+
+.container{
+    height: 100vh;
+    /* background: url(me.jpg.jpg) no-repeat; */
+    /* background-size: cover; */
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.content{
+    max width: 600px;
+}
+
+
+.content h1{
+    font-size: 56px;
+    font-weight: bolder;
+    color: white;
+}
+
+.content h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: aqua;
+}
+
+.content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+    color: white;
+}
+
+ .content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+ 
+
+ }
+
+ .btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color:#081b28;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+ }
+
+ .icons{
+    bottom: 40px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .icons a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aqua;
+    border: 2px solid;
+    border-color: aqua;
+    border-radius: 50%;
+ }
+
+ .about{
+    position: relative;
+ }
+
+
+.heading {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 4rem;
+  margin-top: 3rem;
+}
+
