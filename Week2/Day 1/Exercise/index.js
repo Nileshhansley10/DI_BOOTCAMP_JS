@@ -8,14 +8,23 @@ console.log("I eat" + " " + favoriteFood  + " at every"+ " " +favoriteMeal);
 // ex2
 
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
-let myWatchedSeriesLength = myWatchedSeries.length;
+
+const myWatchedSeriesLength = myWatchedSeries.length;
 console.log(myWatchedSeriesLength);
 
 
-let myWatchedSeriesSentence=["black mirror", "money heist", and "the big bang theory"];
-let myWatchedSeriesSentence=  myWatchedSeries[0] ", " +  myWatchedSeries[1] " ", + and + myWatchedSeries[2] " " 
+console.log.toString(myWatchedSeries);
 
-console.log(myWatchedSeriesSentence);
+
+const myWatchedSeriesSentence = myWatchedSeries
+
+
+
+
+
+
+// console.log(aSentence) = "I watched 3 series:" + " " + console.log(myWatchedSeries[0]) + console.log(myWatchedSeries[1]) + " " + "and" + " " + console.log(myWatchedSeries[2];
+
 
 
 
