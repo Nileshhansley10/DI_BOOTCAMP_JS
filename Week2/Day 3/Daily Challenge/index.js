@@ -15,17 +15,19 @@ console.log(stars);
 
 
 
+let number1 = 10;
+let stars1 = " ";
+  for (let i = 0;i < number; i++){
 
-for (var i = 0; i < number; i++) {        
-    var stars = " ";                      
-    for (var j = 0; j < number; j++) {      
-      if (j < i) {                     
-        stars= stars + " * ";                    
-      }
-    }
-    console.log(stars);                   
+  for (let j = 0; j < i ; j++){
+    stars1 = stars1 + " * "
   }
   
+    stars1 = stars1 + "\n";
+
+}
+
+console.log(stars1);
                  
       
 
